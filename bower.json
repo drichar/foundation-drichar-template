@@ -1,0 +1,22 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "authors": [
+    "Doug Richar <drichar@gmail.com>"
+  ],
+  "description": "Project description",
+  "main": "gulpfile.babel.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2"
+  },
+  "private": true
+}
