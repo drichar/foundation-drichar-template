@@ -1,4 +1,4 @@
-# Front-End Start Point
+# Front-End Starting Point
 
 Built with the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). It has a Gulp-powered build system with these features:
 
