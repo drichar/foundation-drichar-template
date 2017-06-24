@@ -24,7 +24,10 @@ Requirements:
 ```bash
 git clone git@github.com:drichar/foundation-drichar-template.git projectname
 cd projectname
-npm install && bower install
+rm -rf .git/
+git init
+npm install
+bower install
 ```
 
 Then run `npm start` to run Gulp. Flattened/processed files will be created in a folder called `dist`, which is rebuilt whenever watched files in `src` change. BrowserSync will serve files from `dist` at:
